@@ -16,7 +16,7 @@ blank:
 	git push github blank:gh-pages -f 
 
 addremotes:
-	git remote add github git@github.com:BlackMaria/SherSec.git
+	git remote add github git@github.com:deinarson/www.machproductions.com.git
 	git remote add heroku https://git.heroku.com/guarded-temple-9787.git
 
 del:
@@ -36,7 +36,7 @@ puma:
 
 
 getbranch:
-	git clone -b gh-pages git@github.com:BlackMaria/SherSec.git
+	git clone -b gh-pages git@github.com:deinarson/www.machproductions.com.git
 	# or git clone -b my-branch https://git@github.com/username/myproject.git
 
 
@@ -49,6 +49,6 @@ install:
 
 #  When running jekyll locally this will point to github, just remove it, but dont commit it
 local:
-	perl -pi -e 's|http://SherSec.io||g' _config.yml 
+	perl -pi -e 's|http://www.machproductions.com||g' _config.yml 
 
 
