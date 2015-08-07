@@ -1,7 +1,7 @@
 # Site settings
-title: "machprod.github.io"
+title: "machprod"
 email: dev.null@localhost
-description: "machprod.github.io website"
+description: "machprod website"
 title_description: "hanging out Wednesdays at Boquebiere"
 title_image: "/css/images/favicons/apple-touch-icon-152x152.png"
 rss: "/feed.xml"
@@ -10,23 +10,23 @@ rss: "/feed.xml"
 #   OR on the root of a server...
 #  
 # if running in asubdir on a web server include URL
-baseurl: "http://machprod.github.io"
+baseurl: "http://deinarson.github.io/machprod/"
 #  Where the web site is located
-url: "http://machprod.github.io"
+url: "http://deinarson.github.io/machprod/"
 
 
 
 
 #google_analytics: "UA-20365477-4"
 #disqus_account: cartenoire
-github_repository: https://github.com/deinarson/machprod.github.io
+github_repository: https://github.com/deinarson/machprod
 
 #addthis_id: ra-513c6fa83da6ec67
 #post_limit: 5
 
 # Social usernames/URLs
 #twitter_username: deinarson
-github_username:  deinarson/machprod.github.io
+github_username:  deinarson/machprod
 #linkedin_link: http://url
 #google_plus_link: http://url
 #stackoverflow_link: http://url
@@ -35,7 +35,7 @@ github_username:  deinarson/machprod.github.io
 
 # Footer
 footer_left: "jekyll theme <a href=\"https://github.com/jacobtomlinson/carte-noire\">Jacob Tomlinson on Github</a>"
-footer_right: "translations, pull requests? <a href=\"https://github.com/deinarson/machprod.github.io\">machprod.github.io</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+footer_right: "git <a href=\"https://github.com/deinarson/machprod\">machprod</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
 markdown: redcarpet
