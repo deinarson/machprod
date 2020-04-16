@@ -6,11 +6,12 @@ title_description: "hanging out Wednesdays at Boquebiere"
 title_image: "/css/images/favicons/apple-touch-icon-152x152.png"
 rss: "/feed.xml"
 #
-#   if you run locally OR inside a subdir 
+#   if you run locally OR inside a subdir
 #   OR on the root of a server...
-#  
+#
 # if running in asubdir on a web server include URL
-baseurl: "http://deinarson.github.io/machprod/"
+baseurl: /
+#"http://deinarson.github.io/machprod/"
 #  Where the web site is located
 url: "http://deinarson.github.io/machprod/"
 
@@ -38,11 +39,8 @@ footer_left: "jekyll theme <a href=\"https://github.com/jacobtomlinson/carte-noi
 footer_right: "git <a href=\"https://github.com/deinarson/machprod\">machprod</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
-
+markdown:
 #
-permalink: pretty 
+permalink: pretty
 gems: ['kramdown']
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile','Makefile']
