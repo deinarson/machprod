@@ -56,7 +56,7 @@ GEM
     rack-jekyll (0.3.5)
       jekyll
       rack
-    rake (10.4.2)
+    rake (12.3.3)
     rb-fsevent (0.9.5)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
